@@ -1,5 +1,8 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Max Turer
+### Team Lead
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Using this [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) to make links, headers, and the like.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Duis ex nisi, rutrum auctor tortor a, condimentum lacinia ante. Duis in ipsum dignissim, iaculis risus non, rhoncus odio. Integer nec sapien eu quam bibendum ornare. Vivamus eget ante eget nulla iaculis consectetur. Vivamus porttitor mollis turpis, at mollis est lobortis id. Ut eget felis eget leo rhoncus commodo et finibus dolor. Praesent gravida, lectus a gravida ultrices, arcu tortor rhoncus ex, a eleifend arcu metus non justo. Duis tempus neque sit amet urna condimentum laoreet. In hac habitasse platea dictumst. 
+
+Nullam at porta sapien, nec rutrum risus. Curabitur pulvinar accumsan dolor ac laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ante tortor. Nullam ultricies nibh nisl, a luctus dui viverra accumsan. Fusce vitae mollis nunc. Pellentesque quis leo pellentesque odio accumsan aliquam. Donec scelerisque sem nulla, vel vulputate purus tempor efficitur. Curabitur eu ultrices lorem. 

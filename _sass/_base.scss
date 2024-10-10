@@ -19,6 +19,31 @@ strong {
   color: var(--global-text-color);
 }
 
+.h1, h1 {
+  font-size: 5rem;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.h2, h2 {
+  font-size: 3rem;
+  text-transform: lowercase;
+}
+
+.h3,
+h3 {
+  text-transform: lowercase;
+}
+
+
+.navbar {
+  text-transform: lowercase;
+}
+
+.nav > li > a {
+  text-transform: uppercase;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -168,6 +193,10 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-radius: 0;
+  border: 1px solid var(--global-divider-color);
 
   .card-img {
     width: 100%;
@@ -180,6 +209,11 @@ ul.task-list input[type="checkbox"] {
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  }
+
+  &:hover {
+    box-shadow: none;
+    -webkit-box-shadow: none;
   }
 }
 
@@ -245,6 +279,7 @@ ul.task-list input[type="checkbox"] {
 
 .navbar {
   box-shadow: none;
+  -webkit-box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
@@ -483,6 +518,8 @@ footer.sticky-bottom {
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
+        box-shadow: none;
+        -webkit-box-shadow: none;
       }
     }
   }
@@ -497,92 +534,6 @@ footer.sticky-bottom {
 .date-column {
   width: 75px;
   transform: translateX(-15px) translateY(-5px);
-}
-
-// Repositories
-
-@media (min-width: 768px) {
-  .repo {
-    max-width: 50%;
-  }
-}
-
-// Blog
-
-.header-bar {
-  border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-
-  h1 {
-    color: var(--global-theme-color);
-    font-size: 5rem;
-  }
-}
-
-.tag-category-list {
-  border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
-  padding-top: 1rem;
-
-  ul {
-    justify-content: center;
-    display: flow-root;
-
-    p,
-    li {
-      list-style: none;
-      display: inline-block;
-      padding: 1rem 0.5rem;
-      color: var(--global-text-color-light);
-    }
-  }
-}
-
-.post-title {
-  mjx-container[jax="CHTML"][display="true"] {
-    display: unset;
-  }
-}
-
-.post-list {
-  margin: 0;
-  margin-bottom: 40px;
-  padding: 0;
-
-  li {
-    border-bottom: 1px solid var(--global-divider-color);
-    list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
-    .post-meta {
-      color: var(--global-text-color-light);
-      font-size: 0.875rem;
-      margin-bottom: 0;
-    }
-
-    .post-tags {
-      color: var(--global-text-color-light);
-      font-size: 0.875rem;
-      padding-top: 0.25rem;
-      padding-bottom: 0;
-    }
-
-    a {
-      color: var(--global-text-color);
-      text-decoration: none;
-
-      &:hover {
-        color: var(--global-theme-color);
-      }
-    }
-
-    mjx-container[jax="CHTML"][display="true"] {
-      display: unset;
-    }
-  }
 }
 
 .pagination {
@@ -832,6 +783,14 @@ footer.sticky-bottom {
   }
 }
 
+.badge {
+  border-radius: 0;
+  color: var(--global-card-bg-color) !important;
+  background-color: var(--global-theme-color) !important;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
@@ -1021,17 +980,21 @@ progress::-moz-progress-bar {
   }
 }
 
+.dropdown-menu {
+  border-radius: 0;
+}
+
 /* Table of Contents */
 nav[data-toggle="toc"] {
   top: 5rem;
 
   .nav .nav > li > a {
-    font-size: 0.75rem;
+    font-size: 1.5rem;
   }
 
   .nav > li > a {
     color: var(--global-text-color);
-    font-size: 0.75rem;
+    font-size: 1.5rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -1042,7 +1005,7 @@ nav[data-toggle="toc"] {
   .nav-link.active {
     color: var(--global-theme-color);
     border-left-color: var(--global-theme-color);
-    font-size: 0.75rem;
+    font-size: 1.75rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -1058,34 +1021,6 @@ nav[data-toggle="toc"] {
     visibility: hidden;
     height: 0;
     top: 0;
-  }
-}
-
-.featured-posts {
-  a {
-    color: var(--global-text-color-light);
-    text-decoration: none;
-
-    .card-text {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    &:hover {
-      color: var(--global-theme-color);
-
-      .card-title {
-        color: var(--global-theme-color);
-      }
-    }
-  }
-
-  .post-meta {
-    color: var(--global-text-color-light);
-    font-size: 0.875rem;
-    margin-bottom: 0;
-    padding-top: 0.5rem;
   }
 }
 
@@ -1171,7 +1106,7 @@ ninja-keys::part(ninja-input-wrapper) {
   min-width: 100px;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
-  border-radius: 6px;
+  border-radius: 0;
   padding: 8px 12px;
 }
 

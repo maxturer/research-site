@@ -2,24 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: A research project by Max Turer, George Washington, and Taro Yamada of George Washington University
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: none
+  image: space.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+toc:
+  sidebar: right
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## What we worked on
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Ligula tempor ligula eleifend mattis molestie risus. Maximus eu egestas efficitur habitant dictumst interdum integer elit. Dolor sollicitudin in suscipit potenti nisi, curabitur sit. Magnis iaculis finibus rhoncus natoque convallis phasellus ullamcorper. Laoreet lectus lacinia parturient egestas torquent elit posuere fusce est. Posuere montes lectus ad est et amet urna. Viverra dolor ipsum tempus parturient nascetur velit rutrum. Posuere facilisi risus mus augue accumsan quis.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## How we worked on it
+
+Metus eget netus molestie non eleifend sociosqu condimentum. Parturient mi natoque euismod litora eget id malesuada. Nec mattis facilisis condimentum natoque eu eu per. Faucibus lacinia facilisi ligula enim dictumst mattis. Cursus diam vulputate nam, luctus nunc cras massa scelerisque. Facilisi egestas velit tristique molestie imperdiet rhoncus nunc accumsan. Primis eget odio fringilla viverra at. Molestie sem sem mattis duis cursus eget aptent auctor. Egestas tempor dolor lobortis varius ultrices class. Magna eleifend parturient interdum euismod porttitor viverra consequat.
+- First we did this
+- Then we did this
+- Wow, then we went ahead and did this
+- Finally, we did this!
+
+## What we want to do next
+
+Volutpat iaculis ad netus porta et nisi. Vulputate eu massa eu arcu luctus gravida sodales suscipit. At natoque dictum auctor aliquet suspendisse iaculis dis fringilla. Fusce parturient accumsan neque egestas massa nam risus nisl. Habitasse viverra tristique mollis porttitor odio vehicula enim senectus. Volutpat dictum nostra laoreet id ultrices integer. Dolor egestas porta ac aliquet gravida netus at eleifend.
