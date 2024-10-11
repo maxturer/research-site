@@ -44,7 +44,7 @@ The capybara's common name is derived from Tupi ka'apiûara, a complex agglutina
 
 The capybara or greater capybara (Hydrochoerus hydrochaeris) is the largest living rodent, native to South America. It is a member of the genus Hydrochoerus. The only other extant member is the lesser capybara (Hydrochoerus isthmius). Its close relatives include guinea pigs and rock cavies, and it is more distantly related to the agouti, the chinchilla, and the nutria. The capybara inhabits savannas and dense forests, and lives near bodies of water. It is a highly social species and can be found in groups as large as 100 individuals, but usually live in groups of 10–20 individuals. \
 
-Izu Shaboten Zoo and other zoos in Japan have prepared hot spring baths for capybaras. Video clips of the bathing capybaras have gained millions of views. The capybaras have influenced an anime character named Kapibara-san, and a series of merchandise such as plush toys. A Capybara café has been opened in Tokyo. 
+Izu Shaboten Zoo and other zoos in Japan have prepared hot spring baths for capybaras. Video clips of the bathing capybaras have gained millions of views. The capybaras have influenced an anime character named Kapibara-san, and a series of merchandise such as plush toys. A Capybara café has been opened in Tokyo.
 
 ## Where the capybaras live
 

@@ -1,6 +1,6 @@
 # Research Site Template
 ## A template for a single research project, adapted from [al-folio]((https://alshedivat.github.io/al-folio/)
-/
+
 ## Installing
 
 1. Click on the "Use this template" button on the top right, and follow the instructions to create your own repository.
