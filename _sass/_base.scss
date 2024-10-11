@@ -19,13 +19,15 @@ strong {
   color: var(--global-text-color);
 }
 
-.h1, h1 {
+.h1,
+h1 {
   font-size: 5rem;
   text-transform: lowercase;
   font-weight: bold;
 }
 
-.h2, h2 {
+.h2,
+h2 {
   font-size: 3rem;
   text-transform: lowercase;
 }
@@ -34,7 +36,6 @@ strong {
 h3 {
   text-transform: lowercase;
 }
-
 
 .navbar {
   text-transform: lowercase;

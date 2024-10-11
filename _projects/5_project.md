@@ -7,12 +7,15 @@ importance: 3
 category: data
 map: true
 ---
+
 ## What is this?
+
 You can display your research in slide format with Slider. Here is an example. \
 
 The capybara's common name is derived from Tupi ka'apiûara, a complex agglutination of kaá (leaf) + píi (slender) + ú (eat) + ara (a suffix for agent nouns), meaning "one who eats slender leaves", or "grass-eater". The genus name, hydrochoerus, comes from Greek ὕδωρ (hydor "water") and χοῖρος (choiros "pig, hog") and the species name, hydrochaeris, comes from Greek ὕδωρ (hydor "water") and χαίρω (chairo "feel happy, enjoy").
 
 ## Our Presentation
+
 <!-- just replace the image path (assets/img/9.jpg) with the image path you want to feature -->
 <div class="row flex justify-content-center">
 <!-- this says "col," which means "full width." For a less wide slideshow, try replacing class="col" with class="col-9," or any lower number. -->
@@ -40,12 +43,16 @@ The capybara's common name is derived from Tupi ka'apiûara, a complex agglutina
 </div>
 
 The capybara or greater capybara (Hydrochoerus hydrochaeris) is the largest living rodent, native to South America. It is a member of the genus Hydrochoerus. The only other extant member is the lesser capybara (Hydrochoerus isthmius). Its close relatives include guinea pigs and rock cavies, and it is more distantly related to the agouti, the chinchilla, and the nutria. The capybara inhabits savannas and dense forests, and lives near bodies of water. It is a highly social species and can be found in groups as large as 100 individuals, but usually live in groups of 10–20 individuals. \
+
 Izu Shaboten Zoo and other zoos in Japan have prepared hot spring baths for capybaras. Video clips of the bathing capybaras have gained millions of views. The capybaras have influenced an anime character named Kapibara-san, and a series of merchandise such as plush toys. A Capybara café has been opened in Tokyo. 
 
 ## Where the capybaras live
+
 <!-- You can also use geoJSON to display coordinates, like so  -->
 <!-- Edit this part with your geoJSON data -->
+
 These are popular locations for capybara baths. You can make your own visualization at [geojson.io](https://geojson.io)
+
 ```geojson
 {
   "type": "FeatureCollection",

@@ -64,11 +64,13 @@ body.sticky-bottom-footer {
 
 .bootstrap-table .fixed-table-container.fixed-height:not(.has-footer),
 .bootstrap-table .fixed-table-container.fixed-height .table thead th,
-.table-bordered td, .table-bordered th {
+.table-bordered td,
+.table-bordered th {
   border-bottom: 1px solid var(--global-divider-color);
 }
 
-.table-bordered td, .table-bordered th {
+.table-bordered td,
+.table-bordered th {
   border: 1px solid var(--global-divider-color);
 }
 

@@ -12,7 +12,6 @@ profile:
 selected_papers: true
 toc:
   sidebar: right
-
 ---
 
 ## What we worked on
@@ -22,6 +21,7 @@ Ligula tempor ligula eleifend mattis molestie risus. Maximus eu egestas efficitu
 ## How we worked on it
 
 Metus eget netus molestie non eleifend sociosqu condimentum. Parturient mi natoque euismod litora eget id malesuada. Nec mattis facilisis condimentum natoque eu eu per. Faucibus lacinia facilisi ligula enim dictumst mattis. Cursus diam vulputate nam, luctus nunc cras massa scelerisque. Facilisi egestas velit tristique molestie imperdiet rhoncus nunc accumsan. Primis eget odio fringilla viverra at. Molestie sem sem mattis duis cursus eget aptent auctor. Egestas tempor dolor lobortis varius ultrices class. Magna eleifend parturient interdum euismod porttitor viverra consequat.
+
 - First we did this
 - Then we did this
 - Wow, then we went ahead and did this
