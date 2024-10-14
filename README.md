@@ -5,9 +5,19 @@
 ## Installing
 
 1. Click on the "Use this template" button on the top right, and follow the instructions to create your own repository.
-2. In your new repository, go to Settings --> Actions --> General, and make sure "Read and Write Permissions" is checked in the "Workflow Permissions" section.
-3. Next, go to Settings --> Pages. Choose "GitHub Actions" as your build source.
+2. Go to https://github.com/settings/tokens and choose Generate New Token (classic is fine). Name it what you like (I used the same name as the repository I made in step 1), and copy the generated code (keep it pasted somewhere safe).
+3. Back in your new repository, go to Settings --> Secrets --> Actions, and create a new Secret called LIGHTHOUSE_BADGER_TOKEN. Paste the code you just copied here as the "Value."
+4. In your new repository, go to Settings --> Actions --> General, and make sure "Read and Write Permissions" is checked in the "Workflow Permissions" section. Check it if not, and save.
+5. Open the file _config.yml. Change the url from maxturer.github.io to [your username].github,io, and change the base url from /research-site/ to the name of your new repository (like: /new-repo-name/).
+6. Next, go to Settings --> Pages. Choose "Deploy from a branch" as your build source (use your "main" or "master" branch).
+7. Wait (a while) for the action to run, then you should have your site! Customize as you like.
 
 ## Further help
 
 Check out the [al-folio readme and installation guide](https://github.com/alshedivat/al-folio) for more information.
+
+## Presentation
+
+If you're affiliated with GW, check out the [related presentation here](https://docs.google.com/presentation/d/1Gw3RLyDeMVuOPn7OlrnMHEVobKUDLkqXxGfVxUhRuYg). Thanks!
+
+If you have any questions, send me an email at [max.turer@gwu.edu](mailto:max.turer@gwu.edu).
