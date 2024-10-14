@@ -31,7 +31,7 @@ jobs:
             }
       - name: Install and Build 🔧
         run: |
-          pipx install --upgrade jupyter
+          pipx install jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
